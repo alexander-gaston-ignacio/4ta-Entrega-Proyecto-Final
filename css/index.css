@@ -1,0 +1,40 @@
+.cabecera {
+  background: linear-gradient(to bottom, #499bea 0%, #207ce5 100%); }
+
+.fondo {
+  background-image: url(../images/imagen1.jpg); }
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  margin: 40px;
+  padding: 20px;
+  justify-content: space-between; }
+
+.flexcontainer {
+  margin-bottom: 100px; }
+
+.flex-hijo {
+  display: block;
+  flex-direction: column;
+  padding: 5px;
+  width: 450px;
+  margin-left: 70px; }
+
+label {
+  color: maroon;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bolder; }
+
+.banner {
+  background-image: url(../images/imagen3.jpg);
+  background-size: cover;
+  height: 900px; }
+
+.d-inline {
+  margin-left: 60px; }
+
+.boton {
+  margin-top: 15px;
+  padding-right: 0px; }
