@@ -2,7 +2,7 @@
   background: linear-gradient(to bottom, #499bea 0%, #207ce5 100%); }
 
 .fondo {
-  background-image: url(../images/imagen1.jpg); }
+  background-image: url("../images/imagen1.jpg"); }
 
 .flex-container {
   display: flex;
