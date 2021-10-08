@@ -7,7 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Agencia visual marketing</title>
-    <link rel="stylesheet" href="../proyecto_final_dw/css/index.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="https://kit.fontawesome.com/85d29c14d9.js" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
 </head>
@@ -15,64 +16,42 @@
   
     <header class="cabecera">
       <section id="logo">
-        <img src="images/Logo Visual.png" alt="logo">
+        <img src="images/logovisual.png" alt="logo">
       </section>
     </header>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-light bg-light">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Dropdown
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-            </li>
-          </ul>
-          <form class="d-flex">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-          </form>
-        </div>
+        <ul class="nav nav-pills">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+          </li>
+        </ul>
       </div>
     </nav>
 
-    <div id="carouselExampleControls" class="container mt-5 carousel slide altoCustom" data-bs-ride="carousel">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="images/imagen3.jpg" class="d-block w-100" alt="slide uno">
+          <img src="images/1.jpg" class="d-block w-100" alt="banner 1">
         </div>
         <div class="carousel-item">
-          <img src="images/imagen4.jpg" class="d-block w-100" alt="slide dos">
+          <img src="images/2.jpg" class="d-block w-100" alt="banner 2">
         </div>
         <div class="carousel-item">
-          <img src="images/imagen5.jpg" class="d-block w-100" alt="slide tres">
+          <img src="images/3.jpg" class="d-block w-100" alt="banner 3">
         </div>
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Previous</span>
       </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
       </button>
@@ -83,27 +62,27 @@
     <section class="container mt-5">
     <div class="card-group">
       <div class="card">
-        <img src="images/imagen6.jpg" class="card-img-top" alt="...">
+        <img src="images/intistucional.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Nosotros</h5>
-          <p class="card-text"><a href="../proyecto_final_dw/pages/quienes.html">Institucional</a></p>
-          <p class="card-text"><a href="../proyecto_final_dw/pages/cargacv.html">Trabaja con nosotros</a></p>
+          <p class="card-text"><a href="./pages/quienes.html">Institucional</a></p>
+          <p class="card-text"><a href="./pages/cargacv.html">Trabaja con nosotros</a></p>
           
         </div>
       </div>
       <div class="card">
-        <img src="images/imagen6.jpg" class="card-img-top" alt="...">
+        <img src="images/servicios.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Servicios</h5>
-          <p class="card-text"><a href="../proyecto_final_dw/pages/planes.html">Community Manager</a></p>
+          <p class="card-text"><a href="./pages/planes.html">Community Manager</a></p>
           
         </div>
       </div>
       <div class="card">
-        <img src="images/imagen6.jpg" class="card-img-top" alt="...">
+        <img src="images/contacto.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Contacto</h5>
-          <p class="card-text"><a href="../proyecto_final_dw/pages/formulario.html">Contactanos</a></p>
+          <p class="card-text"><a href="./pages/formulario.html">Contactanos</a></p>
           
         </div>
       </div>
@@ -112,5 +91,15 @@
 
     
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
-</body>
-</html>
+
+
+      <footer class="footer-index">
+        Derechos Reservados &copy; 2021
+        <br>
+        Diseño por: Escobar Alexander Gatón Ignacio
+        <br>
+        Email: nacho_e1991@hotmail.com
+      </footer>
+
+    </body>
+    </html>
